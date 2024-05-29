@@ -20,7 +20,7 @@
 ## Javascript
 
 ```javascript
-let clock = document.querySelector('.clock');
+        let clock = document.querySelector('.clock');
         
         setInterval(()=>{
             let newDate = new Date();

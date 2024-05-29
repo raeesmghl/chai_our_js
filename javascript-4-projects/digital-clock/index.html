@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            background-color: #2c2c2c;
 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        p{
+            font-size: 25px;
+            color: white;
+
+        }
+        .clock{
+            margin-top: 20px;
+            padding: 15px 25px;
+            background-color: yellow;
+            font-size: 40px;
+            border-radius: 50px;
+            color: #2c2c2c; 
+        }
+    </style>
+</head>
+<body>
+    <p>your local time</p>
+    <div class="clock"></div>
+
+
+    <script>
+        let clock = document.querySelector('.clock');
+        
+        setInterval(()=>{
+            let newDate = new Date();
+            clock.innerHTML = newDate.toLocaleTimeString();
+        },1000)
+    </script>
+</body>
+</html>

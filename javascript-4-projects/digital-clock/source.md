@@ -20,10 +20,10 @@
 ## Javascript
 
 ```javascript
-        let clock = document.querySelector('.clock');
+let clock = document.querySelector('.clock');
         
-        setInterval(()=>{
-            let newDate = new Date();
-            clock.innerHTML = newDate.toLocaleTimeString();
-        },1000)
+setInterval(()=>{
+    let newDate = new Date();
+    clock.innerHTML = newDate.toLocaleTimeString();
+},1000)
 ```

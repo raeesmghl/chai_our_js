@@ -1,4 +1,4 @@
-##html
+## HTML
 
 ```html
 
@@ -15,4 +15,15 @@
 </body>
 </html>
 
+```
+
+## Javascript
+
+```javascript
+let clock = document.querySelector('.clock');
+        
+        setInterval(()=>{
+            let newDate = new Date();
+            clock.innerHTML = newDate.toLocaleTimeString();
+        },1000)
 ```

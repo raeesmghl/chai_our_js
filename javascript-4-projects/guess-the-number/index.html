@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess the number</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="form-container">
+        <div class="logo-container">
+            Forgot Password
+        </div>
+
+        <div class="instructions">
+            <p><i class="ri-star-s-fill"></i> guess a number between 1 to 100</p>
+            <p><i class="ri-star-s-fill"></i> you have 10 attempts</p>
+
+        </div>
+
+        <form class="form">
+                <input type="text" id="guess" placeholder="Enter your guess number" required title="enter a number between 1 and 100" autofocus>
+
+            <button class="form-submit-btn" type="submit" id="submit">submit</button>
+        </form>
+
+        <div class="results-paras">
+            <p><i class="ri-checkbox-circle-fill"></i> Previous Guesses: <span class="guesses"></span></p>
+            <p><i class="ri-checkbox-circle-fill"></i> Guesses Remaining: <span class="lastResult">10</span></p>
+            <h2 class="lowOrHi"></h2>
+
+                <button id="restart-game">restart</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

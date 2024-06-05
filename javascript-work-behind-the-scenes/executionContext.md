@@ -2,4 +2,5 @@
 
 ## written notes
 
-explaination -&#x2192; hitesh choudhary
+explaination &#x2192; hitesh choudhary
+

@@ -2,3 +2,4 @@
 
 ## so please check (ajax)[https://www.google.com] in (my-javascript-notes)[https://www.google.com]
 
+[my-javascript-notes](https://www.google.com)

@@ -6,5 +6,8 @@
 
 topics
 
+code examples
 
 practice questions
+
+projects
